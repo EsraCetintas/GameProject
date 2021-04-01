@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GameProject.Concrete
 {
-    public class GamerManager : IGamerService<Gamer>
+    public class GamerManager : IGamerService
     {
         IGamerCheckService _gamerCheckService;
         public GamerManager(IGamerCheckService gamerCheckService)

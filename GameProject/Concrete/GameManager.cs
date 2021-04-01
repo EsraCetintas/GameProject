@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GameProject.Concrete
 {
-    public class GameManager : IGameService<Game>
+    public class GameManager : IGameService
     {
         public void Add(Game entity)
         {
